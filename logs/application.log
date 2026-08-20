@@ -1,0 +1,9 @@
+2026-08-15 11:29:55 INFO  Application started
+2026-08-15 11:30:00 INFO  Transaction request received transaction_id=3006 account_id=2002 amount=750.00
+2026-08-15 11:30:01 INFO  Account validation successful account_id=2002 status=ACTIVE
+2026-08-15 11:30:01 INFO  Balance validation successful account_id=2002 available_balance=7500.00
+2026-08-15 11:30:02 INFO  Payment method selected transaction_id=3006 method=DEBIT_CARD
+2026-08-15 11:30:05 WARNING Payment gateway response delayed transaction_id=3006
+2026-08-15 11:30:10 ERROR Payment gateway timeout transaction_id=3006 error_code=GW_TIMEOUT
+2026-08-15 11:30:10 ERROR Payment processing failed transaction_id=3006
+2026-08-15 11:30:11 INFO  Transaction status updated transaction_id=3006 status=FAILED
